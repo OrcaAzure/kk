@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kk.local/schemas/teletext-page.json",
+  "title": "TeletextPage",
+  "description": "One Ceefax-style memory page: 24 rows, 40 columns, 8-color palette, sub-10KB.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["number", "title", "updatedAt", "source", "rows"],
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$",
+      "description": "Three-digit page number, e.g. 100, 101, 200."
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["pagasa", "cdrmo", "dpwh", "index", "system", "directory"]
+    },
+    "nextPage": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "prevPage": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": { "$ref": "#/$defs/row" }
+    }
+  },
+  "$defs": {
+    "color": {
+      "type": "string",
+      "enum": ["black", "red", "green", "yellow", "blue", "magenta", "cyan", "white"]
+    },
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "fg"],
+      "properties": {
+        "text": { "type": "string", "minLength": 0, "maxLength": 40 },
+        "fg": { "$ref": "#/$defs/color" },
+        "bg": { "$ref": "#/$defs/color" },
+        "blink": { "type": "boolean" }
+      }
+    },
+    "row": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["text", "fg"],
+          "properties": {
+            "text": { "type": "string", "minLength": 0, "maxLength": 40 },
+            "fg": { "$ref": "#/$defs/color" },
+            "bg": { "$ref": "#/$defs/color" },
+            "blink": { "type": "boolean" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["spans"],
+          "properties": {
+            "spans": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/span" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "number": "300",
+  "title": "CDRRMO BAGUIO ALERTS",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "cdrmo",
+  "prevPage": "201",
+  "nextPage": "400",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-300", "fg": "yellow", "bg": "blue" },
+      { "text": " CDRRMO BAGUIO ", "fg": "white", "bg": "blue" },
+      { "text": "P300", "fg": "yellow", "bg": "blue" }
+    ]},
+    { "text": "MOCK CITY ALERT - NOT LIVE", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "STATUS  : BLUE  PREPAREDNESS", "fg": "cyan" },
+    { "text": "EOC    : ACTIVATED  24/7", "fg": "green" },
+    { "text": "CLASSES: MONITOR  DEPED-CAR", "fg": "white" },
+    { "text": "WORK   : AGENCIES ON SKELETON", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "EVAC   BURNHAM / ATRIUM STBY", "fg": "yellow" },
+    { "text": "EVAC   BARANGAY HALLS OPEN", "fg": "yellow" },
+    { "text": "RELIEF PREPOSITIONED  12 BRGY", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "NO FORCED TRAVEL AFTER 10PM", "fg": "red" },
+    { "text": "CHECK ON ELDERLY NEIGHBORS", "fg": "white" },
+    { "text": "TUNE IN: 100 / 101 / 200", "fg": "cyan" },
+    { "text": "", "fg": "white" },
+    { "text": "SEE ALSO", "fg": "yellow" },
+    { "text": "201 LANDSLIDE   400 CONTACTS", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P300", "fg": "black", "bg": "cyan" }
+  ]
+}

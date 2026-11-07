@@ -1,0 +1,35 @@
+{
+  "title": "Emergency contact directory",
+  "note": "Numbers are for the PAGASA-100 demo (Baguio / Cordillera context). Verify with your LGU before relying on them in a live emergency.",
+  "groups": [
+    {
+      "id": "national",
+      "name": "National hotlines",
+      "items": [
+        { "name": "National Emergency Hotline", "number": "911", "tel": "911" },
+        { "name": "Philippine Red Cross", "number": "143", "tel": "143" },
+        { "name": "Bureau of Fire Protection", "number": "160", "tel": "160" },
+        { "name": "PNP Emergency", "number": "117", "tel": "117" }
+      ]
+    },
+    {
+      "id": "cordillera",
+      "name": "Baguio / Cordillera",
+      "items": [
+        { "name": "Baguio CDRRMO", "number": "(074) 442-1900", "tel": "+63744421900" },
+        { "name": "Baguio Police Station", "number": "(074) 442-2111", "tel": "+63744422111" },
+        { "name": "Baguio Fire Station", "number": "(074) 442-2222", "tel": "+63744422222" },
+        { "name": "Baguio General Hospital (BGHMC)", "number": "(074) 442-4216", "tel": "+63744424216" },
+        { "name": "DPWH-CAR", "number": "(074) 304-1371", "tel": "+63743041371" }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather and national DRRM",
+      "items": [
+        { "name": "PAGASA", "number": "(02) 8284-0800", "tel": "+63282840800" },
+        { "name": "NDRRMC", "number": "(02) 8911-1406", "tel": "+63289111406" }
+      ]
+    }
+  ]
+}

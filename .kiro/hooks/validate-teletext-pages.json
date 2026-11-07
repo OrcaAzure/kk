@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Validate Teletext pages on save",
+      "description": "Enforce 24x40 grid and sub-10KB payload whenever a page JSON file is saved.",
+      "enabled": true,
+      "trigger": "PostFileSave",
+      "matcher": "data/pages/.*\\.json$",
+      "timeout": 30,
+      "action": {
+        "type": "command",
+        "command": "node scripts/validate-pages.mjs"
+      }
+    }
+  ]
+}

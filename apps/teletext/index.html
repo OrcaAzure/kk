@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PAGASA-100 Teletext</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="crt-frame">
+      <div class="screen">
+        <canvas id="teletext" width="640" height="480" aria-label="Teletext 40 by 24 grid"></canvas>
+        <div class="scanlines" aria-hidden="true"></div>
+      </div>
+      <section class="deck">
+        <div class="buffer" id="page-buffer">---</div>
+        <div class="keypad" id="keypad"></div>
+        <p class="hint">Type a 3-digit page (100 weather index, 101 weather, 200 roads)</p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

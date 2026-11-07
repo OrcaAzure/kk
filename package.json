@@ -1,0 +1,20 @@
+{
+  "name": "kk",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Teletext Typhoon Mesh Portal — ultra-low-bandwidth emergency weather and road advisories for the Cordillera.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:api",
+    "dev:api": "npm run dev --workspace @kk/api",
+    "dev:ui": "npm run dev --workspace @kk/teletext",
+    "build": "npm run build --workspaces --if-present",
+    "validate:pages": "node scripts/validate-pages.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

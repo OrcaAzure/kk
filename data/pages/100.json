@@ -1,0 +1,43 @@
+{
+  "number": "100",
+  "title": "PAGASA-100 INDEX",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "index",
+  "nextPage": "101",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-100", "fg": "yellow", "bg": "blue" },
+      { "text": " CORDILLERA ", "fg": "white", "bg": "blue" },
+      { "text": "P100", "fg": "yellow", "bg": "blue" }
+    ]},
+    { "text": "TELETEXT TYPHOON MESH PORTAL", "fg": "cyan", "bg": "black" },
+    { "text": "", "fg": "white" },
+    { "text": "RESURRECTED CEEFAX FOR TYPHOONS", "fg": "white" },
+    { "text": "BUILT FOR WEAK 3G / EDGE / OUTAGES", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "KEY PAGES", "fg": "yellow" },
+    { "spans": [
+      { "text": "101 ", "fg": "white", "bg": "red" },
+      { "text": " PAGASA WEATHER  BAGUIO", "fg": "white" }
+    ]},
+    { "spans": [
+      { "text": "200 ", "fg": "black", "bg": "yellow" },
+      { "text": " DPWH ROAD CLOSURES", "fg": "yellow" }
+    ]},
+    { "text": "201  LANDSLIDE WATCH   CAR", "fg": "magenta" },
+    { "text": "300  CDRRMO BAGUIO ALERTS", "fg": "cyan" },
+    { "text": "400  EMERGENCY CONTACTS", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "TYPE A 3-DIGIT NUMBER TO JUMP", "fg": "white" },
+    { "text": "USE THE KEYPAD OR 0-9 KEYS", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "SUB-10KB PAGES  40x24 GRID", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P100", "fg": "black", "bg": "cyan" }
+  ]
+}

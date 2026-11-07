@@ -1,0 +1,38 @@
+{
+  "number": "200",
+  "title": "DPWH ROAD CLOSURES",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "dpwh",
+  "prevPage": "101",
+  "nextPage": "100",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-200", "fg": "black", "bg": "yellow" },
+      { "text": " DPWH / ROADS  ", "fg": "black", "bg": "yellow" },
+      { "text": "P200", "fg": "black", "bg": "yellow" }
+    ]},
+    { "text": "MOCK ADVISORY - CORDILLERA", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "KENNON RD     CLOSED  ROCKFALL", "fg": "red" },
+    { "text": "MARCOS HWY    OPEN    SLIPPERY", "fg": "green" },
+    { "text": "NAGUILIAN     OPEN    CAUTION", "fg": "yellow" },
+    { "text": "HALSEMA       PASSABLE  FOG", "fg": "yellow" },
+    { "text": "ASIN RD       CLOSED  FLOOD", "fg": "red" },
+    { "text": "", "fg": "white" },
+    { "text": "DPWH-CAR: DO NOT FORCE CLOSED", "fg": "white" },
+    { "text": "GATES. WAIT FOR CONVOY IF ANY.", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "ALT: BAUANG-NAGUILIAN-BAGUIO", "fg": "cyan" },
+    { "text": "", "fg": "white" },
+    { "text": "NEXT UPDATE WHEN SIGNAL ALLOWS", "fg": "magenta" },
+    { "text": "", "fg": "white" },
+    { "text": "SEE ALSO", "fg": "yellow" },
+    { "text": "100 INDEX     101 WEATHER", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P200", "fg": "black", "bg": "cyan" }
+  ]
+}

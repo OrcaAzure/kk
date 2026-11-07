@@ -1,0 +1,38 @@
+{
+  "number": "400",
+  "title": "EMERGENCY CONTACTS",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "directory",
+  "prevPage": "300",
+  "nextPage": "100",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-400", "fg": "black", "bg": "white" },
+      { "text": " CONTACTS SOS  ", "fg": "black", "bg": "white" },
+      { "text": "P400", "fg": "red", "bg": "white" }
+    ]},
+    { "text": "VERIFY LOCALLY - DEMO LIST", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "911   NATIONAL EMERGENCY", "fg": "red" },
+    { "text": "143   PHILIPPINE RED CROSS", "fg": "red" },
+    { "text": "160   BUREAU OF FIRE (BFP)", "fg": "yellow" },
+    { "text": "117   PNP EMERGENCY", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "BAGUIO / CORDILLERA", "fg": "cyan" },
+    { "text": "CDRRMO   (074) 442-1900", "fg": "white" },
+    { "text": "POLICE   (074) 442-2111", "fg": "white" },
+    { "text": "FIRE     (074) 442-2222", "fg": "white" },
+    { "text": "BGHMC    (074) 442-4216", "fg": "white" },
+    { "text": "DPWH-CAR (074) 304-1371", "fg": "white" },
+    { "text": "PAGASA   (02) 8284-0800", "fg": "green" },
+    { "text": "NDRRMC   (02) 8911-1406", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "TAP TEL LINKS ON /contacts", "fg": "cyan" },
+    { "text": "SEE 100 INDEX  300 ALERTS", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P400", "fg": "black", "bg": "cyan" }
+  ]
+}

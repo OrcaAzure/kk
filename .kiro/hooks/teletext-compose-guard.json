@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Remind agent of grid limits",
+      "description": "After editing composer or schema files, remind Kiro of the 24x40 and 10KB rules.",
+      "enabled": true,
+      "trigger": "PostFileSave",
+      "matcher": "(composer\\.ts|teletext-page\\.schema\\.json|types\\.ts)$",
+      "action": {
+        "type": "agent",
+        "prompt": "Re-check that Teletext pages remain exactly 24 rows, 40 characters per row, 8-color palette only, and under 10KB. Fix any violation before continuing."
+      }
+    }
+  ]
+}

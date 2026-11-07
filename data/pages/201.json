@@ -1,0 +1,38 @@
+{
+  "number": "201",
+  "title": "LANDSLIDE WATCH",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "cdrmo",
+  "prevPage": "200",
+  "nextPage": "300",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-201", "fg": "white", "bg": "magenta" },
+      { "text": " LANDSLIDE CAR ", "fg": "white", "bg": "magenta" },
+      { "text": "P201", "fg": "yellow", "bg": "magenta" }
+    ]},
+    { "text": "MOCK FEED - MGB / CDRRMO", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "BENGUET / MT PROV / IFUGAO", "fg": "cyan" },
+    { "text": "SLOPE CUTS : HIGH RISK", "fg": "red" },
+    { "text": "SOIL       : NEAR SATURATION", "fg": "yellow" },
+    { "text": "RAIN 24H   : 80-120 MM", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "RED    LA TRINIDAD STEEP SITIO", "fg": "red" },
+    { "text": "ORANGE ITOGON  TUBA  TUBLAY", "fg": "yellow" },
+    { "text": "YELLOW BAGUIO SOUTH HILLS", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "DO NOT CROSS CORDONED SLOPES", "fg": "white" },
+    { "text": "AVOID NIGHT TRAVEL ON CUTS", "fg": "white" },
+    { "text": "REPORT NEW CRACKS TO BRGY", "fg": "cyan" },
+    { "text": "", "fg": "white" },
+    { "text": "SEE ALSO", "fg": "yellow" },
+    { "text": "100 INDEX  200 ROADS  400 SOS", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P201", "fg": "black", "bg": "cyan" }
+  ]
+}

@@ -1,0 +1,93 @@
+:root {
+  --crt-bezel: #1a1410;
+  --crt-glass: #050805;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #0b0b0b;
+  font-family: "Courier New", Courier, monospace;
+  color: #d4d4d4;
+}
+
+.crt-frame {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 20px;
+}
+
+.screen {
+  position: relative;
+  background: var(--crt-glass);
+  border: 12px solid var(--crt-bezel);
+  border-radius: 18px;
+  box-shadow: inset 0 0 60px rgba(0, 255, 180, 0.08), 0 20px 50px #000;
+  overflow: hidden;
+}
+
+#teletext {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.28) 0px,
+    rgba(0, 0, 0, 0.28) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: multiply;
+}
+
+.deck {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+}
+
+.buffer {
+  font-size: 28px;
+  letter-spacing: 0.4em;
+  color: #7cff6b;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 64px);
+  gap: 8px;
+}
+
+.keypad button {
+  height: 48px;
+  font: inherit;
+  font-size: 20px;
+  color: #fff;
+  background: #222;
+  border: 2px solid #555;
+  cursor: pointer;
+}
+
+.keypad button:active {
+  background: #444;
+}
+
+.hint {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.8;
+}

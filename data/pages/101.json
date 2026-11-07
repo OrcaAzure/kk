@@ -1,0 +1,38 @@
+{
+  "number": "101",
+  "title": "PAGASA WEATHER",
+  "updatedAt": "2026-11-07T08:00:00.000Z",
+  "source": "pagasa",
+  "prevPage": "100",
+  "nextPage": "200",
+  "rows": [
+    { "spans": [
+      { "text": "PAGASA-101", "fg": "yellow", "bg": "red" },
+      { "text": " WEATHER BAGUIO ", "fg": "white", "bg": "red" },
+      { "text": "P101", "fg": "yellow", "bg": "red" }
+    ]},
+    { "text": "MOCK FEED - REPLACE WITH LIVE", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "BAGUIO CITY / BENGUET", "fg": "cyan" },
+    { "text": "SKY     : CLOUDY WITH RAIN", "fg": "white" },
+    { "text": "TEMP    : 18C  RH 92%", "fg": "white" },
+    { "text": "WIND    : SW 25-40 KPH", "fg": "white" },
+    { "text": "RAIN    : 15-30MM / 3H", "fg": "yellow" },
+    { "text": "", "fg": "white" },
+    { "text": "SIGNAL  : TCWS #1  NORTHERN LUZ", "fg": "yellow" },
+    { "text": "HAZARD  : LANDSLIDE  -- WATCH", "fg": "magenta" },
+    { "text": "FLOOD   : LOW LYING  -- MONITOR", "fg": "cyan" },
+    { "text": "", "fg": "white" },
+    { "text": "PAGASA: STAY INDOORS AFTER DARK", "fg": "white" },
+    { "text": "AVOID SLOPE CUTS AND CREEKS", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "SEE ALSO", "fg": "yellow" },
+    { "text": "100 INDEX     200 ROAD STATUS", "fg": "green" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "", "fg": "white" },
+    { "text": "0-9 SELECT   HOLD PAGE   P101", "fg": "black", "bg": "cyan" }
+  ]
+}

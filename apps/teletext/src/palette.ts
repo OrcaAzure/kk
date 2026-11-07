@@ -1,0 +1,17 @@
+export const PALETTE = {
+  black: "#000000",
+  red: "#ff0000",
+  green: "#00ff00",
+  yellow: "#ffff00",
+  blue: "#0000ff",
+  magenta: "#ff00ff",
+  cyan: "#00ffff",
+  white: "#ffffff",
+} as const;
+
+export type ColorName = keyof typeof PALETTE;
+
+export const COLS = 40;
+export const ROWS = 24;
+export const CELL_W = 16;
+export const CELL_H = 20;
